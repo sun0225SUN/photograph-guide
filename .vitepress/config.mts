@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "photograph guide",
   description: "Photography Knowledge Base",
+  head: [["link", { rel: "icon", href: "/logo.svg" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
